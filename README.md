@@ -6,4 +6,5 @@ As shown in the image below, the segmentation mask can distinguish between the o
 <img src='starfish.jpg' width=200>  <img src='mask.png' width=200>
 
 The image below shows a grayscale representation of the feature projections along the first principal component.
+<br>
 <img src='first_principal_component.jpg' width=200>  <img src='histogram.png' width=200>
