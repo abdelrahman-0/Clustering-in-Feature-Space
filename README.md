@@ -3,4 +3,4 @@ Obtaining pixel-wise annotations for training a semantic segmentation model is e
 <br>
 As shown in the image below, the segmentation mask is can distinguish between the objects in the image.
 
-<img src='starfish.jpg' width=200> <img src='mask.png' width=200>
+<img src='starfish.jpg' width=200>  <img src='mask.png' width=200>
