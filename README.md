@@ -8,3 +8,6 @@ As shown in the image below, the segmentation mask can distinguish between the o
 The image below shows a grayscale representation of the feature projections along the first principal component. It clearly shows the separation between the foreground and the background in the image (as shown by the two peaks in the histogram).
 <br>
 <img src='first_principal_component.jpg' width=200>  <img src='histogram.png' width=200>
+
+## Usage:
+`python3 main.py image`

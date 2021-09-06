@@ -1,11 +1,12 @@
 from utils import *
+import sys
 
 # Initialize variables
 model = models.vgg16(pretrained=True, progress=True)   # Classification Model
 model_depth = 29                                       # Layer
 
 # Get image
-img, img_h, img_w = get_img('starfish.jpg')
+img, img_h, img_w = get_img(sys.argv[1])
 
 # Obtain feature tensor from model
 result = model.features[:model_depth](img.view(1, 3, img_h, img_w))[0]
