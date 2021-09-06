@@ -31,7 +31,7 @@ plt.xlabel('feature projection along first PC', fontsize=22)
 plt.ylabel('count', fontsize=22)
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
-fig.savefig('histogram.png', format='png', bbox_inches='tight', transparent=True)
+fig.savefig('histogram.png', format='png', bbox_inches='tight')
 
 # Cluster pixel-wise entries in the feature image use k-means. The number of clusters is determined using the Silhouette method
 lower_n, upper_n = 2, 11
