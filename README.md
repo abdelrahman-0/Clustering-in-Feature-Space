@@ -9,5 +9,5 @@ The image below shows a grayscale representation of the feature projections alon
 <br>
 <img src='first_principal_component.jpg' width=200>  <img src='histogram.png' width=200>
 
-## Usage:
+### Usage:
 `python3 main.py image`
