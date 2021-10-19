@@ -3,7 +3,7 @@ Obtaining pixel-wise annotations for training a semantic segmentation model is e
 <br>
 As shown in the image below, the segmentation mask can distinguish between the objects in the image.
 
-<img src='starfish.jpg' width=200>  <img src='mask.png' width=200>
+<img src='fish.jpg' width=200>  <img src='mask.png' width=200>
 
 The image below shows a grayscale representation of the feature projections along the first principal component. It clearly shows the separation between the foreground and the background in the image (as shown by the two peaks in the histogram).
 <br>
