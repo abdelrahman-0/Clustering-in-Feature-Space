@@ -9,7 +9,7 @@ model_depth = 29                                       # Layer
 img, img_h, img_w = get_img(sys.argv[1])
 
 # Obtain feature tensor from model
-result = model.features[:model_depth](img.view(1, 3, img_h, img_w))[0]
+result = model.features[:model_depth](img.unsqueeze(0))[0]
 result = result.permute(1,2,0).detach().numpy().astype(float)
 height, width, depth = result.shape
 
